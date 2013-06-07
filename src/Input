@@ -1,0 +1,12 @@
+speed = 0
+position = 0
+accel = 0
+maxspeed = 100
+alloweddistance = 20
+nextCar = 140
+speedAim = 0
+topAccel = 10f = open(filename + '.txt')
+        buttons = {}
+        for line in f:
+            line = line.split()
+            buttons[line[0]] = int(line[1])

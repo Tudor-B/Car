@@ -1,0 +1,3 @@
+firstAccel= 10
+secondPos= 100
+secondSpeed= 80
